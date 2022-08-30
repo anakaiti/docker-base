@@ -1,2 +1,2 @@
 FROM alpine
-RUN apk add bash openssh git curl net-tools drill
+RUN apk add --no-cache bash openssh git curl net-tools drill
